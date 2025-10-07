@@ -189,8 +189,8 @@ document.querySelectorAll('main #open-source .open-cards .slider-section .btn').
     elem.remove();
 });
 
-// Remove button from netflix-india-clone
-document.querySelector('main #web-projects .web-cards .netflix-slider .btn').remove();
+// Remove button from streaming-platform-ui
+document.querySelector('main #web-projects .web-cards .fakeflix-slider .btn').remove();
 
 // Image slider functions
 function plusSlide(key, n) {
