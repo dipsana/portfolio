@@ -11,9 +11,9 @@ const slides = {
         cap: ['Dark', 'Light', 'Custom Background'],
         srs: 'to-do-srs'
     },
-    netflix: {
+    fakeflix: {
         idx: 0,
-        img: ['web-netflix-india-demo', 'web-netflix-india-1', 'web-netflix-india-2', 'web-netflix-india-3', 'web-netflix-india-4', 'web-netflix-india-full'],
+        img: ['web-stream-ui-demo', 'web-stream-ui-1', 'web-stream-ui-2', 'web-stream-ui-3', 'web-stream-ui-4', 'web-stream-ui-full'],
         cap: ['Welcome Page', 'Section 1', 'Section 2', 'FAQ', 'Footer', 'Full Landing Page'],
         srs: undefined
     },
@@ -87,11 +87,11 @@ createCard(
 );
 
 createCard(
-    webCards, 'netflix',
-    'web-netflix-india-demo.png', 'Netflix UI-UX Clone',
-    'A clone of Netflix landing page made by me.', true,
-    'https://dipsana.github.io/netflix-india-clone/',
-    'https://github.com/dipsana/netflix-india-clone.git'
+    webCards, 'fakeflix',
+    'web-stream-ui-demo.png', 'Streaming Platform UI',
+    'A Netflix inspired landing page made by me.', true,
+    'https://dipsana.github.io/streaming-platform-ui/',
+    'https://github.com/dipsana/streaming-platform-ui.git'
 );
 
 // Create C Project Cards
