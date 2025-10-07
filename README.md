@@ -51,36 +51,28 @@ This project showcases my **skills, experience, digital awareness**, and **creat
 
 ---
 
-## 🧠 Technologies Used
-
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat\&logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat\&logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat\&logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
----
-
 ## 📁 Clickable Folder Structure
 
-[portfolio/](/)
-├── [assets/](/assets)
-│   ├── [documents/](/assets/documents)
-│   ├── [images/](/assets/images)
-│   ├── [videos/](/assets/videos)
-│   ├── ...
-│   └── [section-modules/](/assets)  ← contains CSS and JS modules for each section
-│
-├── [index.html](/index.html)
-├── [about.html](/about.html)
-├── [work.html](/work.html)
-├── [contact.html](/contact.html)
-│
-├── [script-global.js](/script-global.js)
-├── [style-global.css](/style-global.css)
-├── [favicon.webp](/favicon.webp)
-│
-├── [🕒CHANGELOG.md](/CHANGELOG.md)
-├── [🔑LICENSE](/LICENSE)
-├── [📄README.md](/README.md)
+[portfolio/](/)  
+├── [assets/](/assets)  
+│   ├── [documents/](/assets/documents)  
+│   ├── [images/](/assets/images)  
+│   ├── [videos/](/assets/videos)  
+│   ├── ...  
+│   └── [section-modules/](/assets)  ← contains CSS and JS modules for each section  
+│  
+├── [index.html](/index.html)  
+├── [about.html](/about.html)  
+├── [work.html](/work.html)  
+├── [contact.html](/contact.html)  
+│  
+├── [script-global.js](/script-global.js)  
+├── [style-global.css](/style-global.css)  
+├── [favicon.webp](/favicon.webp)  
+│  
+├── [🕒CHANGELOG.md](/CHANGELOG.md)  
+├── [🔑LICENSE](/LICENSE)  
+├── [📄README.md](/README.md)  
 └── [📓portfolio-srs.pdf](/portfolio-srs.pdf)
 
 ---
@@ -116,4 +108,3 @@ Commercial use, redistribution, or re-branding as a personal portfolio is **stri
 Developed and designed with ❤️ by **Dipsana Roy**
 
 > “I built this portfolio to express both my technical foundation and my creative evolution.”
-
