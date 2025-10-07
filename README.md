@@ -1,5 +1,9 @@
 # 🪶 Personal Portfolio — Dipsana Roy
 
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 A fully responsive and interactive personal portfolio website built using **HTML**, **CSS**, and **JavaScript**.
 This project showcases my **skills, experience, digital awareness**, and **creative works**, while demonstrating **clean architecture**, **performance optimization**, and **modern UI/UX practices**.
 
@@ -112,3 +116,4 @@ Commercial use, redistribution, or re-branding as a personal portfolio is **stri
 Developed and designed with ❤️ by **Dipsana Roy**
 
 > “I built this portfolio to express both my technical foundation and my creative evolution.”
+
