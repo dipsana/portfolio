@@ -1,0 +1,162 @@
+/* Navigation Bar (fallback) */
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+/* Basic Styling */
+main h2,
+main h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+main h1 {
+    text-decoration: underline;
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+main .projects {
+    display: grid;
+    grid-template-columns: 30vw 40vw;
+    row-gap: 8vh;
+    column-gap: 2vw;
+    place-content: center;
+}
+
+/* Image slider */
+main .projects .slider-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    place-items: center;
+}
+
+.projects .slider-section .img-slider {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slider-section .img-slider img {
+    object-fit: contain;
+    width: 100%;
+    max-height: 32vh;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.slider-section .img-slider img.active {
+    opacity: 1;
+}
+
+.slider-section .img-slider img,
+.slider-section .img-slider img.active {
+    transition: opacity 0.36s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Image slider buttons */
+.slider-section .img-slider .prev,
+.slider-section .img-slider .next {
+    font-size: 3.5vmin;
+    z-index: 2;
+    padding: 1vmin;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.slider-section .img-slider .prev {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.slider-section .img-slider .next {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.slider-section .img-slider .prev:hover,
+.slider-section .img-slider .next:hover {
+    transition: background-color 0.3s ease-in;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-section .img-caption {
+    position: relative;
+    color: seagreen;
+    user-select: none;
+    padding-top: 1%;
+}
+
+.slider-section .dots {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin-top: 1vh;
+    user-select: none;
+    cursor: pointer;
+}
+
+.slider-section .dot.active {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.slider-section .dot {
+    color: var(--primary-bg-color, black);
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 100%;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    transition: background-color 0.2s ease;
+}
+
+.slider-section .dot:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1000px) {
+    main .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* projects section */
+    main .projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* image-caption font-size adjustment */
+    .projects .slider-section .img-caption {
+        padding-top: 2.4%;
+        font-size: smaller;
+    }
+
+    /* image-slider dots */
+    .projects .slider-section .dots .dot {
+        font-size: 0.5rem;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    /* card adjustments */
+    main .projects .card {
+        width: 94%;
+    }
+}
