@@ -3,7 +3,7 @@ const slides = {
         idx: 0,
         img: ['web-xo-1', 'web-xo-2', 'web-xo-3'],
         cap: ['Tie Dark', 'Dark O Win', 'Light X Win'],
-        srs: 'xo-time-srs.pdf'
+        srs: 'xo-time-srs'
     },
     toDo: {
         idx: 0,
