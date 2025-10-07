@@ -95,6 +95,17 @@ This project showcases my **skills, experience, digital awareness**, and **creat
 
 ---
 
+## 📋 Changelog
+
+| Version | Date | Highlights |
+|---------|------|------------|
+| **v1.0.1** | 2025-10-07 | Brand compliance fix, asset renaming, legal safety |
+| **v1.0.0** | 2025-10-07 | Initial release with full portfolio features |
+
+*For detailed changes, see [CHANGELOG.md](CHANGELOG.md)*
+
+---
+
 ## 🪪 License
 
 This project is protected under the **Creative Commons Attribution–NonCommercial–NoDerivatives 4.0** license.

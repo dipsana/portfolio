@@ -1,6 +1,30 @@
 # 🕒 CHANGELOG
 
-## [v1.0.0] — Base Release
+## \[v1.0.1] — Critical Branding Patch
+
+📅 *Release Date: 2025-10-07*
+
+---
+
+### 🔧 Fixed
+
+* **Critical Brand Compliance**: Renamed all Netflix-related assets to generic "stream-ui" branding
+* **Image Assets**: Updated file names from `web-netflix-india-*` to `web-stream-ui-*` pattern
+* **JavaScript References**: Modified `work.js` slides object and dynamic card generator parameters
+* **HTML Structure**: Updated portfolio card IDs and references from `netflix-india` to `web-stream-ui`
+* **Documentation**: Synchronized CV, README and changelog with new branding
+
+---
+
+### 🛡️ Legal Compliance
+
+* Resolved trademark concerns by removing all proprietary brand references
+* Maintained full functionality while ensuring educational/compliance integrity
+* Preserved all technical features and UI/UX quality
+
+---
+
+## \[v1.0.0] — Base Release
 
 📅 *Release Date: 2025-10-07*
 
