@@ -2,7 +2,7 @@
 
 ## \[v1.0.1] — Critical Branding Patch
 
-📅 *Release Date: 2025-10-07*
+📅 *Release Date: 2025-10-08*
 
 ---
 
@@ -12,7 +12,8 @@
 * **Image Assets**: Updated file names from `web-netflix-india-*` to `web-stream-ui-*` pattern
 * **JavaScript References**: Modified `work.js` slides object and dynamic card generator parameters
 * **HTML Structure**: Updated portfolio card IDs and references from `netflix-india` to `web-stream-ui`
-* **Documentation**: Synchronized CV, README and changelog with new branding
+* **Documentation**: Synchronized CV, README and CHANGELOG with new branding
+* **Bug Fixes**: Unable to download XO Time SRS bug fixed
 
 ---
 
