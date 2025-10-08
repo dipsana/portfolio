@@ -101,7 +101,7 @@ createCard(
     cCards, 'dateComp',
     'c-historians-estimator-demo.png', 'Historians Estimator',
     'C console-based program to compare difference between two dates.', true,
-    'https://replit.com/@dipsana/Date-Comparison?v=1',
+    'https://youtu.be/yKSScHqfrqE',
     'https://github.com/dipsana/historian-estimator.git'
 );
 
@@ -109,7 +109,7 @@ createCard(
     cCards, 'rPS',
     'c-rps-game-demo.png', 'Paper Cut',
     'C console-based game to play rock, paper and scissors with you.', true,
-    'https://replit.com/@dipsana/Rock-paper-sizors-game?v=1',
+    'https://youtu.be/TfaDXo40V8I',
     'https://github.com/dipsana/paper-cut.git'
 );
 
@@ -117,7 +117,7 @@ createCard(
     cCards, 'numCracker',
     'c-num-cracker-demo.png', 'Number Cracker',
     'C console-based random number guessing game within 1–100.', true,
-    'https://replit.com/@dipsana/Random-number-guessing-game?v=1',
+    'https://youtu.be/nX_52F0-5mg',
     'https://github.com/dipsana/number-cracker.git'
 );
 
@@ -149,14 +149,14 @@ createCard(
     oCards, 'cyberSeq',
     'cyber-seq-1.png', 'Cyber Security',
     'MAKAUT based Cyber Security notes.', true,
-    'https://github.com/DipsanaRoy/c-error-handling.git'
+    'https://github.com/DipsanaRoy/cyber-security-pec-cs702e.git'
 );
 
 createCard(
     oCards, 'hrdob',
     'hrdob-1.png', 'HR Development & Org Behavior',
     'MAKAUT based Human Resource Development and Organizational Behavior notes.', true,
-    'https://github.com/DipsanaRoy/c-error-handling.git'
+    'https://github.com/DipsanaRoy/human-resource-development-and-organizational-behaviour-full-chapterwise-notes.git'
 );
 
 // Dynamic image slider generator
