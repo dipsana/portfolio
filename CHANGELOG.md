@@ -1,6 +1,6 @@
 # 🕒 CHANGELOG
 
-## \[v1.0.2] — Demo Integration & Performance Boost
+## \[v1.0.2] — Showcase Complete — Demos, Speed & Stability
 
 📅 *Release Date: 2025-10-08*
 
