@@ -99,7 +99,8 @@ This project showcases my **skills, experience, digital awareness**, and **creat
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| **v1.0.1** | 2025-10-07 | Brand compliance fix, asset renaming, legal safety |
+| **v1.0.2** | 2025-10-08 | YouTube demos, 46% asset optimization, bug fixes |
+| **v1.0.1** | 2025-10-08 | Brand compliance, legal safety, critical fixes |
 | **v1.0.0** | 2025-10-07 | Initial release with full portfolio features |
 
 *For detailed changes, see [CHANGELOG.md](CHANGELOG.md)*

@@ -1,5 +1,46 @@
 # 🕒 CHANGELOG
 
+## \[v1.0.2] — Demo Integration & Performance Boost
+
+📅 *Release Date: 2025-10-08*
+
+---
+
+### 🎬 Added
+
+* **YouTube Integration**: C project cards now link to video demonstrations
+* **Enhanced Project Showcase**: Better visualization for console applications
+* **Improved Accessibility**: Non-technical users can understand project functionality
+
+### ⚡ Optimized
+
+* **Image Compression**: 47% reduction in assets size (10.4MB → 5.51MB)
+* **Faster Loading**: Optimized images for better web performance
+* **Source Efficiency**: Reduced source size from ~53KB to ~51.8KB
+
+### 🛠️ Fixed
+
+* **Unable to Download Paper Cut SRS Bug**: Renamed the SRS file to synchronize it with the path.
+* **Cyber Security and Human Resource Preview links** in Open Source Contributions
+
+### 🔧 Updated
+
+* **Standalone Capabilities**: Enhanced Historian Estimator card in index.html
+* **Project Navigation**: Streamlined user flow between web and C projects
+* **Documentation**: Updated to reflect new demo integration features
+
+---
+
+### 📊 Performance Metrics
+
+| Metric | Before | After | Improvement |
+|--------|---------|-------|-------------|
+| Assets Size | 10.4 MB | 5.62 MB | **46% reduction** |
+| Source Size | ~53 KB | ~51.8 KB | **2.3% reduction** |
+| Load Time | Baseline | ~50% faster | Significant |
+
+---
+
 ## \[v1.0.1] — Critical Branding Patch
 
 📅 *Release Date: 2025-10-08*
