@@ -1,15 +1,43 @@
 const slides = {
+    soundScript: {
+        idx: 0,
+        img: ['soundscript-home',
+            'soundscript-foot',
+            'soundscript-play',
+            'soundscript-pause',
+            'soundscript-replay',
+            'soundscript-mini-bar',
+            'soundscript-nav',
+            'soundscript-search',
+            'soundscript-resp-slider',
+            'soundscript-resp-1',
+            'soundscript-resp-2',
+        ],
+        cap: [
+            'Landing Page',
+            'Footer',
+            'Playing',
+            'Paused',
+            'Hidden Replay',
+            'Navigation',
+            'Search Bar',
+            'Card Slider',
+            'Responsive App',
+            'Responsive Mini Bar'
+        ],
+        srs: 'soundscript/main/SRS'
+    },
     XOTime: {
         idx: 0,
         img: ['web-xo-1', 'web-xo-2', 'web-xo-3'],
         cap: ['Tie Dark', 'Dark O Win', 'Light X Win'],
-        srs: 'xo-time-srs'
+        srs: 'xo-time/main/xo-time-srs'
     },
     toDo: {
         idx: 0,
         img: ['web-to-do-1', 'web-to-do-2', 'web-to-do-3'],
         cap: ['Dark', 'Light', 'Custom Background'],
-        srs: 'to-do-srs'
+        srs: 'to-do/main/to-do-srs'
     },
     fakeflix: {
         idx: 0,
@@ -21,19 +49,19 @@ const slides = {
         idx: 0,
         img: ['c-historians-estimator-demo', 'c-historians-estimator-norm', 'c-historians-estimator-feature', 'c-historians-estimator-ac'],
         cap: ['Welcome Screen', 'Normal Output', 'Feature Output', 'Auto-correct Output'],
-        srs: 'historians-estimator-srs'
+        srs: 'historian-estimator/main/docs/SRS'
     },
     rPS: {
         idx: 0,
         img: ['c-rps-game-demo', 'c-rps-game'],
         cap: ['Gameplay 1', 'Gameplay 2'],
-        srs: 'paper-cut-srs'
+        srs: 'paper-cut/main/docs/SRS'
     },
     numCracker: {
         idx: 0,
         img: ['c-num-cracker-demo', 'c-num-cracker-exit', 'c-num-cracker-resilience'],
         cap: ['Continuation', 'Exit', 'Resilience'],
-        srs: 'number-cracker-srs'
+        srs: 'number-cracker/main/docs/SRS'
     },
     cLearn: {
         idx: 0,
@@ -69,6 +97,14 @@ const slides = {
 
 // Create Web Projects Cards
 const webCards = document.body.querySelector('main .web-cards');
+
+createCard(
+    webCards, 'soundScript',
+    'soundscript-home.png', 'SoundScript',
+    'A high-performance web player.', true,
+    'https://dipsana.github.io/soundscript/',
+    'https://github.com/dipsana/soundscript.git'
+);
 
 createCard(
     webCards, 'XOTime',
@@ -171,13 +207,13 @@ document.querySelectorAll('.card').forEach(elem => {
     const sectionHTML = `
         <section class="slider-section ${elemId}-slider">
             <section class="img-slider">
-                <a class="prev" onclick='plusSlide("${elemId}", -1)'>&#10094;</a>
+                <a class="prev" aria-label="Previous" title="Previous" onclick='plusSlide("${elemId}", -1)'>&#10094;</a>
                 <img src="assets/images/${key.img[0]}.png" alt="${key.img[0]}" class="${elemId} active">
-                <a class="next" onclick='plusSlide("${elemId}", 1)'>&#10095;</a>
+                <a class="next" aria-label="Next" title="Next" onclick='plusSlide("${elemId}", 1)'>&#10095;</a>
             </section>
             <figcaption class="img-caption">${key.cap[0]}</figcaption>
             <figcaption class="dots">${dotsHTML}</figcaption>
-            <a href="assets/documents/${key.srs}.pdf" class="btn" download>Download SRS</a>
+            <a href="https://raw.githubusercontent.com/dipsana/${key.srs}.pdf" class="btn" download>Download SRS</a>
         </section>
     `;
 
@@ -210,12 +246,12 @@ function currentSlide(key, n) {
 })();
 
 function showSlides(key, n) {
-    const elem = slides[key];
-    const elemImg = elem.img;
+    const elem = slides[key],
+        elemImg = elem.img;
 
-    const sliderSect = document.body.querySelector(`main .projects .${key}-slider`);
-    const image = sliderSect.querySelector('.img-slider>img');
-    const figCap = sliderSect.querySelector('.img-caption');
+    const sliderSect = document.body.querySelector(`main .projects .${key}-slider`),
+        image = sliderSect.querySelector('.img-slider>img'),
+        figCap = sliderSect.querySelector('.img-caption');
 
     // Remove active from current dot & img only
     sliderSect.querySelector(`.dots [data-index="${elem.idx}"]`)?.classList.remove('active');
