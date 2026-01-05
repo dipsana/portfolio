@@ -73,7 +73,8 @@ This project showcases my **skills, experience, digital awareness**, and **creat
 ├── [🕒CHANGELOG.md](/CHANGELOG.md)  
 ├── [🔑LICENSE](/LICENSE)  
 ├── [📄README.md](/README.md)  
-└── [📓portfolio-srs.pdf](/portfolio-srs.pdf)
+├── [📘SRS.docx](/SRS.pdf)
+└── [📓SRS.pdf](/SRS.pdf)
 
 ---
 
@@ -98,7 +99,8 @@ This project showcases my **skills, experience, digital awareness**, and **creat
 ## 📋 Changelog
 
 | Version | Date | Highlights |
-|---------|------|------------|
+| ------- | ---- | ---------- |
+| **v1.0.3** | 2026-01-04 | Added SoundScript project, dynamic SRS linking, portfolio optimization |
 | **v1.0.2** | 2025-10-08 | YouTube demos, 46% asset optimization, bug fixes |
 | **v1.0.1** | 2025-10-08 | Brand compliance, legal safety, critical fixes |
 | **v1.0.0** | 2025-10-07 | Initial release with full portfolio features |

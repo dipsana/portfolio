@@ -1,5 +1,58 @@
 # 🕒 CHANGELOG
 
+All notable changes to this project are documented in this file.  
+**This project adheres to [Semantic Versioning (SemVer)](https://semver.org/) standards.**
+
+---
+
+## \[v1.0.3] — SoundScript Integration & Portfolio Optimization
+
+📅 *Release Date: 2026-01-05*
+
+---
+
+### 🎵 Added
+
+* **SoundScript Project Integration**: Added high-performance web music player to portfolio showcase
+* **Dynamic SRS Linking**: Projects now link directly to GitHub raw SRS files instead of hosting locally
+* **New Image Slider Assets**: 11 screenshots showcasing SoundScript UI/UX across devices and states
+
+### ⚡ Optimized
+
+* **Centralized Asset Management**: Removed local SRS duplication, reduced repo bloat
+* **GitHub Raw Integration**: SRS files now served directly from project repositories
+* **Portfolio Performance**: Cleaner asset structure, faster load times
+
+### 🔧 Updated
+
+* **Portfolio Version**: Bumped to v1.0.3 with updated changelog and README
+* **Recent Projects Section**: Added SoundScript to index.html featured projects
+* **Project Data Structure**: Enhanced `work.js` with new SoundScript slide object
+* **CV/Resume**: Updated to latest version reflecting recent achievements
+
+### 🗑️ Removed
+
+* **Local SRS Files**: All project SRS PDFs removed from portfolio repo (now linked via GitHub)
+* **Redundant Assets**: Cleaned up documentation folder structure
+
+---
+
+### 🧠 Technical Highlights
+
+* **GitHub Raw URL Integration**: `https://raw.githubusercontent.com/` for live documentation
+* **Modular Project Data**: Expanded portfolio project schema for future scalability
+* **Responsive Media Handling**: New slider images optimized for all viewports
+
+---
+
+### 🚀 Impact
+
+* **Reduced Maintenance**: Single source of truth for project documentation
+* **Improved UX**: Visitors access latest SRS directly from source repos
+* **Professional Polish**: Portfolio now reflects current project state with live links
+
+---
+
 ## \[v1.0.2] — Showcase Complete — Demos, Speed & Stability
 
 📅 *Release Date: 2025-10-08*
