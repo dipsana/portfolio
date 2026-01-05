@@ -73,7 +73,7 @@ This project showcases my **skills, experience, digital awareness**, and **creat
 ├── [🕒CHANGELOG.md](/CHANGELOG.md)  
 ├── [🔑LICENSE](/LICENSE)  
 ├── [📄README.md](/README.md)  
-├── [📘SRS.docx](/SRS.pdf)
+├── [📘SRS.docx](/SRS.pdf)  
 └── [📓SRS.pdf](/SRS.pdf)
 
 ---
@@ -122,3 +122,4 @@ Commercial use, redistribution, or re-branding as a personal portfolio is **stri
 Developed and designed with ❤️ by **Dipsana Roy**
 
 > “I built this portfolio to express both my technical foundation and my creative evolution.”
+
