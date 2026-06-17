@@ -1,0 +1,171 @@
+/* Background Video */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Navigation Bar (fallback) */
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: left;
+}
+
+/* Profile Section */
+#profile {
+    width: max-content;
+    display: grid;
+    grid-template-areas: "picture texts";
+}
+
+/* Profile Image */
+#profile figure {
+    display: flex;
+    flex-direction: column;
+    grid-area: picture;
+}
+
+#profile .text-container {
+    grid-area: texts;
+}
+
+/* Text Section */
+#profile .text-container {
+    width: 50vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+/* Profile Picture */
+#profile figure img {
+    width: min(30vw, 245px);
+    border-radius: 100%;
+    margin: auto;
+}
+
+#profile figure,
+#profile p {
+    font-size: 1.25rem;
+    padding-top: 15px;
+}
+
+#profile .text-container {
+    font-size: clamp(0.9rem, 2.2vw, 1.5rem);
+}
+
+#profile .text-container .text {
+    opacity: 0;
+    background: linear-gradient(to right, #00c6ff, #0072ff, #9c27b0, #ff9800);
+    background-clip: text;
+    color: transparent;
+    transition: opacity 1s ease-in-out;
+}
+
+#profile .text.show {
+    opacity: 1;
+}
+
+#profile .text.hide {
+    opacity: 0;
+}
+
+#skills {
+    width: max-content;
+    margin: auto;
+}
+
+#skills #animated-skills {
+    font-size: 4rem;
+    background: linear-gradient(to right, #af5fff, #7bb8fe, #7bfe95);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid aliceblue;
+}
+
+/* Animation for typing effect */
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Section Styles */
+#recent-projects {
+    padding: 2.5vmax 10vmin;
+}
+
+#recent-projects h2 {
+    font-size: calc(1.5rem + 1.5vw);
+    margin-bottom: min(8vmax, 60px);
+    color: #6e6e6e;
+}
+
+/* Fallback code if global CSS fails */
+.card-img {
+    width: 100%;
+    height: 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.card {
+    width: 300px;
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+    #profile {
+        display: flex;
+        flex-direction: column;
+        padding: 0.25em;
+        width: 82%;
+        align-items: center;
+    }
+
+    #profile .text-container {
+        width: 85%;
+    }
+
+    #profile .text-container h1 {
+        font-size: max(4vmin, 11px);
+    }
+
+    #profile p,
+    #profile figure {
+        font-size: max(3vmin, 11px);
+    }
+
+    #skills #animated-skills {
+        font-size: 2rem;
+    }
+}
